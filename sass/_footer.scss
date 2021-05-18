@@ -1,0 +1,23 @@
+.footer {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    .footer-button {
+        @include button(black, red);
+        display: inline-block;
+        padding: 8px 12px;
+        margin-bottom: 20px;
+        i {
+            margin-right: 20px;
+        }
+    }
+    .social-media-icons {
+        margin-bottom: 20px;
+    }
+    p {
+        a {
+            color: white;
+        }
+    }
+}

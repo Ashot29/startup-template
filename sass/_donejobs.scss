@@ -1,0 +1,15 @@
+.done-jobs {
+    text-align: center;
+    padding: 100px 0;
+    .done-jobs-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .done-job {
+            width: 24%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

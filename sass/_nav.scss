@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    z-index: 1000;
+    align-items: center; // navbari mejtexy linen tarery
+    height: fit-content;
+    text-transform: uppercase;
+
+    .navbar-links {
+        display: flex;
+    }
+
+    .navbar-logo {
+        letter-spacing: 4px
+    }
+
+    .navbar-link {
+        @include button(Black, #fff);
+    }
+
+    .navbar-link:hover {
+        background-color: #ccc;
+    }
+}

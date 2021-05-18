@@ -1,0 +1,50 @@
+@mixin button ($color, $back-color) {
+    height: 100%;
+    padding: 16px;
+    background-color: $back-color;
+    align-content: center;
+    a {
+        text-decoration: none;
+        color: $color;
+    }
+    i {
+        margin-right: 2px;
+    }
+}
+
+@mixin submitButton ($backColor, $color, $opacity: 1, $font-size: $submitButtonFontSize) {
+    background-color: $backColor;
+    color: $color;
+    padding: 12px 25px;
+    margin-top: 16px;
+    font-size: $font-size;
+    border: 0;
+    opacity: $opacity;
+    font-weight: 400;
+}
+
+@mixin sectionHeader {
+    font-weight: 400;
+    font-size: 24px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+@mixin sectionHeaderDesc {
+    font-size: 18px;
+    margin-bottom: 70px;
+}
+
+        
+@mixin loadBar($backColor, $progress, $progressBackColor, $padding, $color: #fff) {
+    width: 100%;
+    background-color: $backColor;
+    .load-bar-progress {
+        width: $progress;
+        text-align: center;
+        background-color: $progressBackColor;
+        height: 100%;
+        padding: $padding 0;
+        color: $color;
+    }
+}

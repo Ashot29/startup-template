@@ -1,0 +1,45 @@
+.team {
+    text-align: center;
+    padding: 100px 0;
+    .team-members {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .member {
+            width: 24%;
+            box-shadow: 0 2px 5px 0 gray;
+            text-align: left;
+            .member-content {
+                padding: 16px 16px;
+            }
+            .member-name {
+                font-weight: 400;
+                font-size: 24px;
+                margin: 10px 0;
+            }
+            .member-name-desc {
+                opacity: 0.6;
+                font-size: 15px;
+                margin: 15px 0;
+            }
+            .member-desc {
+                font-size: 15px;
+                margin: 15px 0;
+            }
+            img {
+                width: 100%;
+            }
+            .member-button {
+                @include submitButton(#f1f1f1, black);
+                width: 100%;
+                align-content: center; 
+            }
+        }
+    }
+}
+.section-header {
+    @include sectionHeader
+}
+.section-header-desc {
+    @include sectionHeaderDesc
+}

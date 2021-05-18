@@ -1,0 +1,27 @@
+.web-description {
+    background-color: #f1f1f1;
+    padding: 100px 0;
+
+    .web-desc-content {
+        display: flex;
+        justify-content: space-between;
+
+        .first-element {
+            .submit-button {
+                @include submitButton(black, white, 1, 15px)
+            }
+            .first-element-header {
+                font-weight: 400;
+                font-size: 24px;
+            }
+        }
+
+        .second-element {
+            img {
+                border-radius: 8px;
+            }
+        }
+    }
+
+    
+}

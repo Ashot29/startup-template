@@ -1,0 +1,32 @@
+.about {
+    text-align: center;
+    padding: 150px 0;
+
+    .about-header {
+        font-weight: 400;
+        font-size: 24px;
+        margin: 10px 0;
+        text-transform: uppercase;
+    }
+    .about-desc {
+        font-size: 18px;
+    }
+
+    .about-elements {
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        .about-element {
+            width: 24%;
+
+            .about-element-header {
+                font-size: 18px;
+                font-weight: 400;
+            }
+
+            .about-element-desc {
+                font-size: 15px;
+            }
+        }
+    }
+}

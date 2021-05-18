@@ -1,0 +1,39 @@
+.skills-section {
+    background-color: #f1f1f1;
+    padding: 64px 0;
+    .skills-section-content {
+        display: flex;
+        justify-content: space-between;
+        .skill-desc {
+            width: 49%;
+            h2 {
+                text-transform: none;
+            }
+            p {
+                font-size: 15px;
+                margin: 15px 0;
+            }
+        }
+        .skill-load-bars {
+            width: 49%;
+            .load-element {
+                margin-top: 20px;
+                .load-header {
+                    letter-spacing: 4px;
+                    i {
+                        margin-right: 10px;
+                    }
+                }
+                .load-bar-one {
+                    @include loadBar(#9E9E9E, 90%, #616161, 2px)
+                }
+                .load-bar-two {
+                    @include loadBar(#9E9E9E, 85%, #616161, 2px)
+                }
+                .load-bar-three {
+                    @include loadBar(#9E9E9E, 75%, #616161, 2px)
+                }
+            }
+        }
+    }
+}

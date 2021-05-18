@@ -1,0 +1,16 @@
+.results {
+    background-color: #616161;
+    color: #fff;
+    padding: 64px 16px;
+    .results_content {
+        display: flex;
+        justify-content: space-between;
+        .result {
+            width: 25%;
+            text-align: center;
+            .large {
+                font-size: 36px;
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+@import 'variables';
+@import 'mixins';
+@import 'nav';
+@import 'intro';
+@import 'about';
+@import 'webdesc';
+@import 'team';
+@import 'results';
+@import 'donejobs';
+@import 'skills';
+@import 'pricing';
+@import 'contacts';
+@import 'image';
+@import 'footer';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1250px;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+nav {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
